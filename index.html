@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+
+      <link rel="stylesheet" href="libs/owlCarousel/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="libs/owlCarousel/css/owl.theme.default.min.css">
+      
+      <script src="js/jquery-3.2.1.js"></script>
+      <script src="libs/owlCarousel/js/owl.carousel.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row align-items-center"  style="height: 100vh">
+				<div class="col-12">
+					<nav class="menu" >
+						<li><a class="li" href="#">hover me</a></li>
+						<li><a class="li" href="#">hover me</a></li>
+						<li><a class="li" href="#">hover me</a></li>
+						<li><a class="li" href="#">hover me</a></li>
+					</nav>
+				</div>
+				<div class="col-12 align-self-center">
+		          <div id="demos">
+		            <div class="row">
+		              <div class="col-12 large-12 columns">
+		                <div class="owl-carousel owl-theme">
+		                  <div class="item">
+		                    <div class="wrapper">
+		                      <div class="box"><img src="img/slider.jpg" alt="priroda">
+		                        <div class="contain">
+		                          <div class="text">
+		                            <h1>Ваш шедевр готов</h1>
+		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quos.</p>
+		                            <a href="#" class="btn">подробнее</a>
+		                          </div>
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                  <div class="item">
+		                   <div class="wrapper">
+		                      <div class="box"><img src="img/slider.jpg" alt="priroda">
+		                        <div class="contain">
+		                          <div class="text">
+		                            <h1>Ваш шедевр готов</h1>
+		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quos.</p>
+		                            <a href="#" class="btn">подробнее</a>
+		                          </div>
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                  <div class="item">
+		                   <div class="wrapper">
+		                    <div class="box"><img src="img/slider.jpg" alt="priroda">
+		                      <div class="contain">
+		                        <div class="text">
+		                          <h1>Ваш шедевр готов</h1>
+		                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quos.</p>
+		                          <a href="#" class="btn">подробнее</a>
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                  </div>
+		                  <div class="item">
+		                    <div class="wrapper">
+		                      <div class="box"><img src="img/slider.jpg" alt="priroda">
+		                        <div class="contain">
+		                          <div class="text">
+		                            <h1>Ваш шедевр готов</h1>
+		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quos.</p>
+		                            <a href="#" class="btn">подробнее</a>
+		                          </div>
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                  <div class="item">
+		                    <div class="wrapper">
+		                      <div class="box"><img src="img/slider.jpg" alt="priroda">
+		                        <div class="contain">
+		                          <div class="text">
+		                            <h1>Ваш шедевр готов</h1>
+		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quos.</p>
+		                            <a href="#" class="btn">подробнее</a>
+		                          </div>
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                  <div class="item">
+		                    <div class="wrapper">
+		                      <div class="box"><img src="img/slider.jpg" alt="priroda">
+		                        <div class="contain">
+		                          <div class="text">
+		                            <h1>Ваш шедевр готов</h1>
+		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quos.</p>
+		                            <a href="#" class="btn">подробнее</a>
+		                          </div>
+		                        </div>
+		                      </div>
+		                    </div> 
+		                  </div>
+		                </div>
+		                <script src="libs/owlCarousel/js/jquery.mousewheel.min.js"></script>
+		                <script>
+		                  $(document).ready(function() {
+		                    var owl = $('.owl-carousel');
+		                    owl.owlCarousel({
+		                      loop: true,
+		                      nav: false,
+		                      margin: 1,
+
+		                      responsive: {
+		                        300: {
+		                          items: 1
+		                        },
+		                        600: {
+		                          items: 3
+		                        }
+		                      }
+		                    });
+		                    owl.on('mousewheel', '.owl-stage', function(e) {
+		                      if (e.deltaY > 0) {
+		                        owl.trigger('next.owl');
+		                      } else {
+		                        owl.trigger('prev.owl');
+		                      }
+		                      e.preventDefault();
+		                    });
+		                  })
+		                </script>
+		              </div>
+		            </div>
+		          </div>
+				</div>
+				<div class="col-12 align-self-center">
+					<h6 class="subTitle">здесь можно что-то написать</h6>
+				</div>
+				<div class="col-12">
+					<div class="button">
+						hover me
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+     
+	   
+<!-- <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script> -->
+</body>
+</html>
